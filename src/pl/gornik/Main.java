@@ -42,6 +42,13 @@ public class Main {
 
         System.out.println(miejscowoscList);
 
+        for (Miejscowosc miejscowosc2: miejscowoscList) {
+            System.out.println(miejscowosc2);
+
+        }
+
+        Miejscowosc miejscowosc3 = miejscowoscList.get(0);
+        System.out.println(miejscowosc3.liczbaLudnosci);
     }
 
 }
